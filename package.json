@@ -1,9 +1,13 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "tsc-es6": "tsc --project tsconfig-es6.json",
+    "tsc-esnext": "tsc --project tsconfig-esnext.json"
   },
   "devDependencies": {
+    "ts-loader": "5.3.3",
     "ts-node": "7.0.1",
-    "typescript": "3.2.2"
+    "typescript": "3.2.2",
+    "webpack": "4.8.3",
+    "webpack-cli": "3.3.0"
   }
 }

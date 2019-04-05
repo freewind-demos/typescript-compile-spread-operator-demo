@@ -2,10 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
+    "module": "es6",
+    "outDir": "dist",
     "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true

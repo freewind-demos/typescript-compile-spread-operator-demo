@@ -1,18 +1,10 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Compile Spread Operator "..." Demo
+=============================================
 
 ```
 npm install
-npm run demo
+npm run tsc-es6
+npm run tsc-esnext
 ```
 
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
+See `dist/hello.js` each time.
